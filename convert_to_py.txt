@@ -1,0 +1,3 @@
+Convert Jupyter notebook .ipynb to .py
+conda activate
+jupyter nbconvert --to script 'my-notebook.ipynb'

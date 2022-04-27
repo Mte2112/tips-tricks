@@ -1,0 +1,8 @@
+#!/bin/bash
+
+IN="file_a.nc"
+OUT="file_b.nc"
+COORD="coord_name"
+
+# the -a is an averaging out operator (i think). But it drops the coord
+ncwa -a $COORD $IN $OUT
